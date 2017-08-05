@@ -1,0 +1,88 @@
+\documentclass{beamer}
+\usepackage[utf8]{inputenc}
+\usetheme{Szeged}
+\usecolortheme{beaver}
+\usepackage[english]{babel}
+
+%Information to be included in the title page:
+\title{projecT}
+\author{Aarya R Shankar
+			\and Amrith M
+				 \and Anand R
+					\and Sarathchandran S}
+\institute{Department of Computer Science\and College of Engineering,Trivandrum}
+\date{2015-2019}
+ 
+
+
+\begin{document}
+
+ 
+
+ 
+\frame{\titlepage}
+
+
+
+
+
+\begin{frame}
+\frametitle{Table of Content:-}
+\tableofcontents[part=1,pausesections]
+\end{frame}
+
+
+
+\begin{frame}{Example of columns 1}
+
+    \begin{columns}[c] % the "c" option specifies center vertical alignment
+    \column{.5\textwidth} % column designated by a command
+     Contents of the first column
+    \column{.5\textwidth}
+     Contents split \\ into two lines
+    \end{columns}
+\end{frame}
+
+
+
+
+
+\begin{frame}{Example of columns 2}
+     \begin{columns}[T] % contents are top vertically aligned
+     \begin{column}[T]{5cm} % each column can also be its own environment
+     Contents of first column \\ split into two lines
+     \end{column}
+     \begin{column}[T]{5cm} % alternative top-align that's better for graphics
+          \includegraphics[height=3cm]{image.jpg}
+     \end{column}
+     \end{columns}
+\end{frame}
+
+
+
+
+
+
+\begin{frame}[allowframebreaks]
+  \frametitle<presentation>{Further Reading}    
+  \begin{thebibliography}{10}    
+  \beamertemplatebookbibitems
+  \bibitem{Autor1990}
+    A.~Autor.
+    \newblock {\em Introduction to Giving Presentations}.
+    \newblock Klein-Verlag, 1990.
+  \beamertemplatearticlebibitems
+  \bibitem{Jemand2000}
+    S.~Jemand.
+    \newblock On this and that.
+    \newblock {\em Journal of This and That}, 2(1):50--100, 2000.
+  \end{thebibliography}
+\end{frame}
+ 
+
+
+
+
+
+\end{document}
+
