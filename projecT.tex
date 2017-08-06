@@ -3,22 +3,19 @@
 \usetheme{Szeged}
 \usecolortheme{beaver}
 \usepackage[english]{babel}
-
+\usepackage{ulem}
 %Information to be included in the title page:
-\title{projecT}
-\author{Aarya R Shankar
+\title{Malayalam Text Recognition System}
+\author{Aarya R. Shankar
 			\and Amrith M
 				 \and Anand R
 					\and Sarathchandran S}
 \institute{Department of Computer Science\and College of Engineering,Trivandrum}
 \date{2015-2019}
  
-
-
 \begin{document}
 
  
-
  
 \frame{\titlepage}
 
@@ -27,62 +24,57 @@
 
 
 \begin{frame}
-\frametitle{Table of Content:-}
-\tableofcontents[part=1,pausesections]
+\frametitle{Table of Contents:-}
+\tableofcontents
 \end{frame}
 
 
-
-\begin{frame}{Example of columns 1}
+\begin{frame}{What is it ?}
 
     \begin{columns}[c] % the "c" option specifies center vertical alignment
-    \column{.5\textwidth} % column designated by a command
-     Contents of the first column
-    \column{.5\textwidth}
-     Contents split \\ into two lines
+    \column{\textwidth} % column designated by a command
+     Optical character recognition (also optical character reader, OCR) is the mechanical or electronic conversion of images of typed, 
+handwritten or printed text into machine-encoded text, whether from a scanned document, a photo of a document, a scene-photo (for example the 
+text on signs and billboards in a landscape photo) or from subtitle text superimposed on an image (for example from a television broadcast)
     \end{columns}
 \end{frame}
 
 
 
+\begin{frame}{What We Do?}
+     We plan to develop an OCR system that reads printed or written Malayalam characters from images to text in an editable document form.
+\end{frame}
 
-
-\begin{frame}{Example of columns 2}
-     \begin{columns}[T] % contents are top vertically aligned
-     \begin{column}[T]{5cm} % each column can also be its own environment
-     Contents of first column \\ split into two lines
-     \end{column}
-     \begin{column}[T]{5cm} % alternative top-align that's better for graphics
-          \includegraphics[height=3cm]{image.jpg}
-     \end{column}
-     \end{columns}
+\begin{frame}{Why We Do?}
+     Enthelm Thalli Kettu
 \end{frame}
 
 
 
-
-
-
-\begin{frame}[allowframebreaks]
-  \frametitle<presentation>{Further Reading}    
-  \begin{thebibliography}{10}    
-  \beamertemplatebookbibitems
-  \bibitem{Autor1990}
-    A.~Autor.
-    \newblock {\em Introduction to Giving Presentations}.
-    \newblock Klein-Verlag, 1990.
-  \beamertemplatearticlebibitems
-  \bibitem{Jemand2000}
-    S.~Jemand.
-    \newblock On this and that.
-    \newblock {\em Journal of This and That}, 2(1):50--100, 2000.
-  \end{thebibliography}
-\end{frame}
+\begin{frame}
+\frametitle{How We Do?}
+This is the pipeline of what we plan to do as of now. 
  
+\begin{itemize}
+ \item\only<1>{Black Magic}\only<2->{\sout{Black Magic}}
+ \item<2-> Deep Learning !!!
+\end{itemize}
+ 
+\end{frame}
 
+\begin{frame}
+\frametitle{Why Deep Learning ?}
+\begin{itemize}
+ \item<1->Deep learning is the fastest-growing field in machine learning. It uses many-layered Deep Neural Networks (DNNs) to learn levels of 
+representation and abstraction that make sense of data such as images, sound, and text.
+\end{itemize}
+ 
+\end{frame}
 
-
-
+ \begin{frame}{How We Do?}
+     \includegraphics[height=7cm,width=\textwidth]{deep.jpg}
+\end{frame}
 
 \end{document}
+
 
