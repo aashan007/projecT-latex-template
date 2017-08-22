@@ -196,22 +196,27 @@ Our projects has various benefits. Some of them are noted below:
     title label node/.append style={below left=7pt and -3pt}
   ]{WEEKS:\quad1}{1}
   \gantttitlelist{2,...,12}{1} \\
-  \ganttgroup[progress=0]{WBS 1 Summary Element 1}{1}{12} \\
+  \ganttgroup[progress=0]{LIPI - Malayalam OCR}{1}{12} \\
   \ganttbar[
-    progress=0
+    progress=0,
+    name=WBS1A
   ]{\textbf{} Data collection}{1}{2} \\
   \ganttbar[
-    progress=0
+    progress=0,
+    name=WBS1B
   ]{\textbf{} Data preprocessing}{3}{4} \\
   \ganttbar[
-    progress=0
+    progress=0,
+    name=WBS1C
   ]{\textbf{} Character classification}{5}{8} \\
   \ganttbar[
-    progress=0
+    progress=0,
+    name=WBS1D
   ]{\textbf{} Text extraction from image}{9}{10} \\
   \ganttbar[
-    progress=0
-  ]]{\textbf{} Setting up the OCR}{11}{12} \\[grid]
+    progress=0,
+    name=WBS1E
+  ]{\textbf{} Setting up the OCR}{11}{12} \\[grid]
 %   \ganttlink[link type=s-s]{WBS1A}{WBS1B}
 %   \ganttlink[link type=f-s]{WBS1B}{WBS1C}
 \end{ganttchart}
