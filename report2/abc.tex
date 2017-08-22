@@ -5,10 +5,10 @@
 %
 % Feel free to distribute this example, but please keep the referral
 % to howtotex.com
-% Date: March 2011 
-% 
+% Date: March 2011
+%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% How to use writeLaTeX: 
+% How to use writeLaTeX:
 %
 % You edit the source code here on the left, and the preview on the
 % right shows you the result within a few seconds.
@@ -32,9 +32,9 @@
 \usepackage{fourier}
 
 \usepackage[english]{babel}															% English language/hyphenation
-\usepackage[protrusion=true,expansion=true]{microtype}	
+\usepackage[protrusion=true,expansion=true]{microtype}
 \usepackage{amsmath,amsfonts,amsthm} % Math packages
-\usepackage[pdftex]{graphicx}	
+\usepackage[pdftex]{graphicx}
 \usepackage{url}
 \usepackage{pgfgantt}
 
@@ -48,7 +48,7 @@
 \usepackage{fancyhdr}
 \pagestyle{fancyplain}
 \fancyhead{}											% No page header
-\fancyfoot[L]{}											% Empty 
+\fancyfoot[L]{}											% Empty
 \fancyfoot[C]{}											% Empty
 \fancyfoot[R]{\thepage}									% Pagenumbering
 \renewcommand{\headrulewidth}{0pt}			% Remove header underlines
@@ -75,7 +75,7 @@
 \newcommand{\horrule}[1]{\rule{\linewidth}{#1}} 	% Horizontal rule
 
 \title{
-		%\vspace{-1in} 	
+		%\vspace{-1in}
 		\usefont{OT1}{bch}{b}{n}
 		\normalfont \normalsize \textsc{Department of Computer Science} \\ [25pt]
 		\horrule{0.5pt} \\[0.4cm]
@@ -88,7 +88,7 @@
         Amrith M\\[-3pt]		\normalsize
         Anand R\\[-3pt]		\normalsize
         \newline
-        Sarathchandran S\\[-3pt]		\normalsize        
+        Sarathchandran S\\[-3pt]		\normalsize
 %         \today
 }
 \date{}
@@ -100,7 +100,7 @@
 \section{Scope}
 To develop a high quality OCR of Malayalam language using deep learning and computer vision within 3 months, after preparing the dataset from 3+ scanned copies of malayalam literature.
 % \subsection{Heading on level 2 (subsection)}
-% Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
+% Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
 
 % Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
 
@@ -108,7 +108,7 @@ To develop a high quality OCR of Malayalam language using deep learning and comp
 % Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.
 
 % \paragraph{Heading on level 4 (paragraph)}
-% Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. 
+% Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
 
 
 \section{ Technical Feasibility of Project}
@@ -116,29 +116,29 @@ Our project is completely based on open source libraries and softwares. Hence th
 
 % \subsection{Example for list (3*itemize)}
 % \begin{itemize}
-% 	\item First item in a list 
+% 	\item First item in a list
 % 		\begin{itemize}
-% 		\item First item in a list 
+% 		\item First item in a list
 % 			\begin{itemize}
-% 			\item First item in a list 
-% 			\item Second item in a list 
+% 			\item First item in a list
+% 			\item Second item in a list
 % 			\end{itemize}
-% 		\item Second item in a list 
+% 		\item Second item in a list
 % 		\end{itemize}
-% 	\item Second item in a list 
+% 	\item Second item in a list
 % \end{itemize}
 
 % \subsection{Example for list (enumerate)}
 % \begin{enumerate}
-% 	\item First item in a list 
-% 	\item Second item in a list 
+% 	\item First item in a list
+% 	\item Second item in a list
 % 	\item Third item in a list
 % \end{enumerate}
 \section{Project Benefits}
 Our projects has various benefits. Some of them are noted below:
 \begin{enumerate}
 	\item Our Kerala Government has enlisted Malayalam as the language of all official documents. Hence, a malayalam OCR is necessary for digitalising them.
-	\item It can be used for other open source projects for organisation purposes in NGOs, etc 
+	\item It can be used for other open source projects for organisation purposes in NGOs, etc
 	\item This project may be modified to read the malayalam scripts and process them using NLP (Natural Language Processing) and use a text-to-speech software as an aid to blind people.
 \end{enumerate}
 
@@ -225,9 +225,26 @@ Our projects has various benefits. Some of them are noted below:
 \section{Resources}
 \begin{enumerate}
 	\item Nvidia GPU processor provided by Kerala Startup Mission
-	\item Libraries: Keras, numpy, matplotlib, tensorflow/ tiano
-	\item openCV
+	\item Keras - neural network library written in Python
+	\item numpy - Library for scientific computing with Python
+	\item matplotlib - excellent plotting and graphing libraries
+	\item tensorflow - Depplearning Library
+	\item tiano - Deeplearning Library
+	\item pandas - Python version of R dataframe
+	\item IPython - with the additional libraries required for the notebook interface.
+	\item openCV - Computer vision Library
 \end{enumerate}
+
+\section{Risks}
+\begin{enumerate}
+    \item Finding a large dataset to pretrain on
+    \item Difficult to debug in between models which is not working
+    \item Training a large set of dataset need a very efficient GPU
+    \item Updating the pretrained model when more data or better techniques becomes available
+
+\end{enumerate}
+
+
 
 %%% End document
 \end{document}
